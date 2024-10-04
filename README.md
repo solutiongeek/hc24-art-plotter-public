@@ -6,7 +6,7 @@ Plotting a piece of art can be done by running:
 
 ```bash
 $ poetry run python src/plotter.py
-$ poetry run python src/plotter.py --svg="example.svg"
+$ poetry run python src/plotter.py --svg="static/example.svg"
 ```
 
 ## Contributing
