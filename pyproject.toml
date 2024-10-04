@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "artplotter"
+name = "hc24artplotterpublic"
 version = "0.1.0"
 description = ""
 authors = ["Your Name <you@example.com>"]

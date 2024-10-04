@@ -1,3 +1,4 @@
+# This file converts an SVG into plot points that the axidraw can use to draw the image and prints them to console
 import fire
 
 import parsesvg.parse as parsesvg
