@@ -1,5 +1,13 @@
 # HashiConf Art Plotter 2024
 
+## Installing the dependencies
+
+To install the dependencies, run the following command from the root of the project:
+
+```shell
+make install
+```
+
 ## Usage
 
 Plotting a piece of art can be done by running:
@@ -15,11 +23,3 @@ $ poetry run python src/plotter.py --svg="static/example.svg"
 
 - [Python](https://www.python.org/)
 - [Poetry](https://python-poetry.org/)  
-
-## Installing the dependencies
-
-To install the dependencies, run the following command from the root of the project:
-
-```shell
-make install
-```
