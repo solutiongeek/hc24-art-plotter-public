@@ -10,7 +10,9 @@ output = Prompt.ask("What is the output folder?", default="output")
 
 CANVAS_HEIGHT = 504
 CANVAS_WIDTH = 360
-MAX_ITERATIONS = 14
+
+# Tweak to create greater variety in the images
+MAX_ITERATIONS = 16
 MIN_ITERATIONS = 11
 
 # Create the output folder
@@ -29,10 +31,6 @@ for img in track(range(imgs), description="Generating images"):
 
   d.clear()
 
-  line = draw.Group()
-  # draw the vertical line
-  l = draw.Line(0, 0, 0, 504, stroke='orange', stroke_width=1)
-  line.append(l)
 
   # draw the orange arcs
   iterations = random.randint(MIN_ITERATIONS, MAX_ITERATIONS)
@@ -75,17 +73,35 @@ for img in track(range(imgs), description="Generating images"):
 
     draw_arc(blue, 0, size, 'blue')
 
+  line_r = random.randint(1,2)
+
+  line_color = 'orange'
+  if line_r == 2:
+    line_color = 'blue'
+
+  line = draw.Group()
+  # draw the vertical line
+  l = draw.Line(0, 0, 0, 504, stroke=line_color, stroke_width=1)
+  line.append(l)
+
   # generate a unique id for the file
   id = uuid.uuid4()
   
   # Save the blue layer
   d.clear()
+
+  if line_color == 'blue':
+    d.append(line)
+
   d.append(blue)
   d.save_svg(f'{output}/{id}_blue.svg')
 
   # Save the orange layer
   d.clear()
-  d.append(line)
+
+  if line_color == 'orange':
+    d.append(line)
+
   d.append(orange)
   d.save_svg(f'{output}/{id}_orange.svg')
 
