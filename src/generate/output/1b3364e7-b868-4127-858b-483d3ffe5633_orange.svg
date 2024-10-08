@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="360" height="504" viewBox="0 0 360 504">
+<defs>
+</defs>
+<g>
+<path d="M0,0 L0,504" stroke="orange" stroke-width="1" />
+</g>
+<g>
+<path d="M1.543054966925665e-14,0.0 A252.0,252.0,0,0,1,1.543054966925665e-14,504.0" stroke="orange" stroke-width="1" fill="none" />
+<path d="M1.3379266280684834e-14,67.0 A218.5,218.5,0,0,1,1.3379266280684834e-14,504.0" stroke="orange" stroke-width="1" fill="none" />
+<path d="M1.2613862031217738e-14,92.0 A206.0,206.0,0,0,1,1.2613862031217738e-14,504.0" stroke="orange" stroke-width="1" fill="none" />
+<path d="M1.1848457781750643e-14,117.0 A193.5,193.5,0,0,1,1.1848457781750643e-14,504.0" stroke="orange" stroke-width="1" fill="none" />
+<path d="M9.980871413050929e-15,178.0 A163.0,163.0,0,0,1,9.980871413050929e-15,504.0" stroke="orange" stroke-width="1" fill="none" />
+<path d="M9.735942053221458e-15,186.0 A159.0,159.0,0,0,1,9.735942053221458e-15,504.0" stroke="orange" stroke-width="1" fill="none" />
+<path d="M7.776507174585693e-15,250.0 A127.0,127.0,0,0,1,7.776507174585693e-15,504.0" stroke="orange" stroke-width="1" fill="none" />
+<path d="M6.6130927153957075e-15,288.0 A108.0,108.0,0,0,1,6.6130927153957075e-15,504.0" stroke="orange" stroke-width="1" fill="none" />
+<path d="M6.031385485800715e-15,307.0 A98.5,98.5,0,0,1,6.031385485800715e-15,504.0" stroke="orange" stroke-width="1" fill="none" />
+<path d="M5.296597406312302e-15,331.0 A86.5,86.5,0,0,1,5.296597406312302e-15,504.0" stroke="orange" stroke-width="1" fill="none" />
+<path d="M4.133182947122317e-15,369.0 A67.5,67.5,0,0,1,4.133182947122317e-15,504.0" stroke="orange" stroke-width="1" fill="none" />
+<path d="M2.326828918379971e-15,428.0 A38.0,38.0,0,0,1,2.326828918379971e-15,504.0" stroke="orange" stroke-width="1" fill="none" />
+<path d="M1.43895998899814e-15,457.0 A23.5,23.5,0,0,1,1.43895998899814e-15,504.0" stroke="orange" stroke-width="1" fill="none" />
+<path d="M1.111366970226223e-14,94.0 A181.5,181.5,0,0,1,1.111366970226223e-14,457.0" stroke="orange" stroke-width="1" fill="none" />
+<path d="M8.572527594031472e-16,476.0 A14.0,14.0,0,0,1,8.572527594031472e-16,504.0" stroke="orange" stroke-width="1" fill="none" />
+<path d="M1.2858791391047208e-14,56.0 A210.0,210.0,0,0,1,1.2858791391047208e-14,476.0" stroke="orange" stroke-width="1" fill="none" />
+<path d="M1.0287033112837767e-14,140.0 A168.0,168.0,0,0,1,1.0287033112837767e-14,476.0" stroke="orange" stroke-width="1" fill="none" />
+</g>
+</svg>
